@@ -20,9 +20,14 @@ export function Navbar() {
         {/* Logo */}
         <Link
           href="#hero"
-          className="group flex items-center gap-2 text-white font-bold tracking-tighter text-lg md:text-xl font-[family-name:var(--font-space-grotesk)] hover:opacity-80 transition-opacity"
+          className="group flex items-center gap-2.5 text-white font-bold tracking-tighter text-lg md:text-xl font-[family-name:var(--font-space-grotesk)] hover:opacity-80 transition-opacity"
         >
-          <span className="w-2.5 h-2.5 bg-white inline-block"></span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/favicon-32x32.png"
+            alt="AS Logo"
+            className="w-5 h-5 border border-[#333333] shrink-0"
+          />
           <span>ANASS ASRIR</span>
         </Link>
 
